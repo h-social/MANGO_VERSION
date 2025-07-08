@@ -4,16 +4,13 @@ Repository này được sử dụng để triển khai và quản lý các bả
 
 ## 📁 Cấu trúc thư mục
 
-├── .gitignore # Bỏ qua các file không cần track
-├── Version/ # Chứa các bản cập nhật phân theo version
-│ ├── v0.0.0.1/
-│ ├── v0.0.0.2/
-│ └── ...
-├── update.xml # File mô tả thông tin phiên bản hiện tại
+.gitignore # Bỏ qua các file không cần track
+Version/ # Chứa các bản cập nhật phân theo version
+update.xml # File mô tả thông tin phiên bản hiện tại
 
 ## 🔧 Cách hoạt động
 
-1. Client truy cập đường dẫn `http://yourdomain/update.xml` để kiểm tra phiên bản mới.
+1. Client truy cập đường dẫn `https://cdn.jsdelivr.net/gh/h-social/MANGO_VERSION@main/update.xml` để kiểm tra phiên bản mới.
 2. Nếu phiên bản mới hơn, client sẽ tải về file từ thư mục `Version/vX.X.X/`.
 3. Các bản phát hành được quản lý qua Git để đảm bảo theo dõi chặt chẽ.
 
@@ -23,7 +20,7 @@ Repository này được sử dụng để triển khai và quản lý các bả
 2. Copy file cài đặt hoặc update vào đó.
 3. Cập nhật `update.xml` với thông tin version mới.
 4. Commit và push lên Git nếu cần.
-5. IIS sẽ tự động phục vụ nội dung mới qua HTTP.
+5. github sẽ tự động cập nhật nội dung mới qua cdn.
 
 ## 🧾 Mẫu `update.xml`
 
@@ -33,7 +30,6 @@ Repository này được sử dụng để triển khai và quản lý các bả
   <release>
     <version>1.1.0</version>
     <url>http://yourdomain/Version/v1.1.0/YourApp.exe</url>
-    <notes>Thêm chức năng báo cáo & sửa lỗi crash</notes>
     <mandatory>false</mandatory>
   </release>
 </updates>
