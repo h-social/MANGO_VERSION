@@ -4,9 +4,9 @@ Repository này được sử dụng để triển khai và quản lý các bả
 
 ## 📁 Cấu trúc thư mục
 
-.gitignore # Bỏ qua các file không cần track
-Version/ # Chứa các bản cập nhật phân theo version
-update.xml # File mô tả thông tin phiên bản hiện tại
+1. .gitignore # Bỏ qua các file không cần track
+2. Version/ # Chứa các bản cập nhật phân theo version
+3. update.xml # File mô tả thông tin phiên bản hiện tại
 
 ## 🔧 Cách hoạt động
 
