@@ -29,7 +29,7 @@ Repository này được sử dụng để triển khai và quản lý các bả
 <updates>
   <release>
     <version>1.1.0</version>
-    <url>http://yourdomain/Version/v1.1.0/YourApp.exe</url>
+    <url>https://github.com/h-social/MANGO_VERSION/raw/refs/heads/main/Version/[version].zip</url>
     <mandatory>false</mandatory>
   </release>
 </updates>
