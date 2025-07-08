@@ -13,6 +13,7 @@ Repository này được sử dụng để triển khai và quản lý các bả
 1. Client truy cập đường dẫn `https://cdn.jsdelivr.net/gh/h-social/MANGO_VERSION@main/update.xml` để kiểm tra phiên bản mới.
 2. Nếu phiên bản mới hơn, client sẽ tải về file từ thư mục `Version/vX.X.X/`.
 3. Các bản phát hành được quản lý qua Git để đảm bảo theo dõi chặt chẽ.
+4. Refesh cache tại https://www.jsdelivr.com/tools/purge
 
 ## 🛠 Quy trình cập nhật phiên bản
 
