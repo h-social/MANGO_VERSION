@@ -2,5 +2,5 @@
 <item>
 	<version>0.0.3.1</version>
 	<url>https://github.com/h-social/MANGO_VERSION/releases/download/0.0.3/interfaceV0.0.3.1.zip</url>
-	<mandatory>false</mandatory>
+	<mandatory minVersion="0.0.3.0">true</mandatory>
 </item>
